@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<title>Darin Portfolio</title>
+	
+
+  <script type="module" crossorigin src="./assets/index-9747bf75.js"></script>
+  <link rel="stylesheet" href="./assets/index-9c5ec219.css">
+</head>
+
+<body>
+	<canvas class="threejs"></canvas>
+	
+	<div class="overlay"></div>
+	<div class="spinner">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<h1 class="loading">Loading Experience... <span id="progressPercentage"></span>%</h1>
+	<button class="start">START</button>
+
+	<div id="instruction">
+		Use <strong>WASD</strong> or arrow keys to move around.
+		Use <strong>Joystick</strong> if you are on a mobile device.
+	</div>
+
+
+	<div id="joystick-container" style="position: fixed; left: 50px; bottom: 30px; width: 130px; height: 130px; background: rgba(0, 0, 0, 0.5); border-radius: 50%;">
+		<div id="joystick" style="width: 30px; height: 30px; background: white; border-radius: 50%; position: absolute; top: 25px; left: 25px;"></div>
+	</div>
+
+	<div id="myModal" class="modal">
+		<div class="modal-wrapper">
+			<div class="modal-content">
+				<h1 id="modalTitle">Modal Title</h1>
+				<p id="modalDescription">Modal Description</p>
+			</div>
+			<span class="close">Close</span>
+		</div>
+	</div>
+</body>
+</html>
